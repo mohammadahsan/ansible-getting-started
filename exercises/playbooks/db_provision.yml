@@ -1,0 +1,6 @@
+---
+
+- name: Provisioning Mysql server
+  hosts: "zen-ansible-test"
+  roles:
+    - mysql
